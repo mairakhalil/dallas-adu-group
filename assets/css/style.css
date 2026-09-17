@@ -851,8 +851,6 @@ ul li.show .sub-menu {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin-top: -23px;
-	margin-left: -46px;
 	transform: scale(1.0);
 	-webkit-transition: all 0.15s ease-in-out;
 	opacity: 0;
@@ -947,7 +945,7 @@ ul li.show .sub-menu {
 
 #news .post-item {
 	padding-bottom: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 66px;
 	border-bottom: 1px solid #ebebeb;
 }
 
@@ -1003,14 +1001,8 @@ ul li.show .sub-menu {
 	text-decoration: underline;
 }
 
-
-
-#testimonial {
-
-}
-
 .testimonial-image {
-    background-image: url(../../images/home1/testimonial-bg.jpg);
+    background-image: url(../../assets/images/testimonials/testimonial-bg.webp);
     background-position: left top;
     background-repeat: no-repeat;
     width: 100%;
@@ -1018,11 +1010,6 @@ ul li.show .sub-menu {
     margin-bottom: -5px;
     display: inline-block;
 }
-
-.testimonial-image img {
-
-}
-
 
 .testimonial {
 	max-width: 550px;
@@ -2386,7 +2373,7 @@ blockquote:before {
     height: 24px;
     background-color: #fff;
     position: absolute;
-    right: -22px;
+    right: 0px;
     top: 5px;
     border-radius: 4px;
     font-size: 19px;
@@ -2467,7 +2454,7 @@ blockquote:before {
 /* testimonial section  */
 .testimonial-section {
 	height: 700px;
-	background-image: url(../../images/about/testimonial-bg.jpg);
+	background-image: url(../../assets/images/bg/testimonials-bg-2.webp);
 	position: relative;
 }
 
