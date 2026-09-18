@@ -643,6 +643,11 @@ ul li.show .sub-menu {
 	     -o-transition: all 0.15s ease-in-out;
 	    -ms-transition: all 0.15s ease-in-out;
 	        transition: all 0.15s ease-in-out;
+			align-content: center;
+}
+.service-icon-inner img {
+    width: 40px;
+    height: 40px;
 }
 
 .service-icon .icon:before {
@@ -2418,6 +2423,10 @@ blockquote:before {
     font-size: 30px;
     margin-top: -10px;
     -webkit-transition: all 0.15s ease-in-out;
+}
+.choose-item .choose-icon img{
+    width: 40px;
+    height: 40px;
 }
 
 .choose-item .choose-content {
