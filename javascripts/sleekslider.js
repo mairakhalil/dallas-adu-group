@@ -15,10 +15,10 @@ $.fn.sleekslider = function(object) {
 			thumbs = object.thumbs;
 			labels = object.labels;
 
-			$prevThumbnail.attr('src', 'images/' + thumbs[thumbs.length - 1]);
+			$prevThumbnail.attr('src', thumbs[thumbs.length - 1]);
 			$prevText.text(labels[thumbs.length - 1]);
 
-			$nextThumbnail.attr('src', 'images/' + thumbs[active]);
+			$nextThumbnail.attr('src', thumbs[active]);
 			$nextText.text(labels[active]);
 		} else {
 			$('.nav-split').hide();
@@ -66,18 +66,18 @@ function animateSlider() {
 			if (value < 0) {
 				value = thumbs.length - 1;
 			}
-			$prevThumbnail.attr('src', 'images/' + thumbs[value]);
+			$prevThumbnail.attr('src', thumbs[value]);
 			$prevText.text(labels[value]);
 		} else {
-			$prevThumbnail.attr('src', 'images/' + thumbs[active - 1]);
+			$prevThumbnail.attr('src', thumbs[active - 1]);
 			$prevText.text(labels[active - 1]);
 		}
 
 		if (active === (thumbs.length - 1)) {
-			$nextThumbnail.attr('src', 'images/' + thumbs[0]);
+			$nextThumbnail.attr('src', thumbs[0]);
 			$nextText.text(labels[0]);
 		} else {
-			$nextThumbnail.attr('src', 'images/' + thumbs[next]);
+			$nextThumbnail.attr('src', thumbs[next]);
 			$nextText.text(labels[next]);
 		}
 	}

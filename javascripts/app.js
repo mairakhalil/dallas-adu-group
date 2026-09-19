@@ -1,7 +1,17 @@
-$(document).ready(function(){
-	$('.sleekslider').sleekslider({
-		thumbs: ['wallhaven-27263-thumbnail.jpg','wallhaven-3178-thumb.jpg', 'wallhaven-16270-thumbnail.jpg'],
-		labels:['Title Goes Here', 'Title Goes Here', 'Title Goes Here'],
-		speed: 6000
-	});
-})
+$(document).ready(function () {
+    $('.sleekslider').sleekslider({
+        thumbs: [
+            'assets/images/resources/thumbnail-1.webp',
+    'assets/images/resources/thumbnail-2.webp',
+    'assets/images/resources/thumbnail-3.webp'
+        ],
+
+        labels: [
+            'Dallas ADU Construction',
+            'Plan Your Dallas ADU',
+            'ADUs for Dallas Homes'
+        ],
+
+        speed: 6000
+    });
+});
